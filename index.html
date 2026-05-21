@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>To-do list</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1>Lista de tarefas</h1>
+
+        <div class="todo-list" id="todo-list">
+
+            <label class="todo-item">
+                <input type="checkbox" class="checkbox">
+                <span class="task-text">Exemplo de tarefa</span>
+                <button class="delete-button">Excluir</button>
+            </label>    
+
+            <label class="todo-item">
+                <input type="checkbox" class="checkbox">
+                <span class="task-text">Exemplo de tarefa</span>
+                <button class="delete-button">Excluir</button>
+            </label>  
+
+        </div>       
+
+        <div class="input-section" id="input-section">
+            <input type="text" id="text-input" placeholder="Digite uma tarefa nova.">
+
+            <button id="add-button">Adicionar</button>
+            
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
