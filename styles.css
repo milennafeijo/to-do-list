@@ -12,6 +12,12 @@
     --font-size: 2rem;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 h1 {
     font-size: var(--font-size);
     color: var(--primary-color);
@@ -20,12 +26,19 @@ h1 {
     letter-spacing: 0.5px;
 }
 
+
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 100vh;
+    flex: 1;
     width: 100%;
 
 }
@@ -33,7 +46,8 @@ main {
 .container {
    
     margin-top: 4rem;
-    width: 50%;
+    width: 100%;
+    max-width: 500px;
     margin: 4rem auto;
     padding: 1rem;
   
@@ -90,8 +104,8 @@ main {
     box-shadow: 0px 0px 2px var(--secondary-color);
     border-radius: 0.5rem;
     margin: 10px 0 0;
-    font: inherit;
 }
+
 
 .input-section > input{
     border: none;
@@ -113,3 +127,13 @@ main {
     font-weight: bold;
 }
 
+footer{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;    
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: 0.8rem;
+    text-align: center;
+}

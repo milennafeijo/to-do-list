@@ -1,4 +1,5 @@
-const textInput = document.getElementById('text-input');
-
-const todoList = document.getElementById('todo-list');
-
+//  <label class="todo-item">
+//     <input type="checkbox" class="checkbox">
+//         <span class="task-text">Exemplo de tarefa</span>
+//         <button class="delete-button">Excluir</button>
+// </label>
