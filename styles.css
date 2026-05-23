@@ -127,6 +127,21 @@ main {
     font-weight: bold;
 }
 
+.input-section > button:hover{
+    background-color: var(--secondary-color);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.todo-item input[type="checkbox"]:checked + .task-text {
+    text-decoration: line-through;
+    color: var(--secondary-color);  
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
 footer{
     display: flex;   
     align-items: center;
