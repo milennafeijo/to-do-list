@@ -1,3 +1,6 @@
+const tarefas = []
+
+
 const buttonAdd = document.getElementById('add-button');
 const textInput = document.getElementById('text-input');
 const todoList = document.getElementById('todo-list');

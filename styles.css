@@ -6,7 +6,7 @@
 
 :root {
     --primary-color: #575371;
-    --secondary-color: #9491a4;   
+    --secondary-color: #9491a4;
     --text-color: #595858;
     --font-family: 'Poppins', sans-serif;
     --font-size: 2rem;
@@ -27,7 +27,7 @@ h1 {
 }
 
 
-a{
+a {
     color: var(--primary-color);
     text-decoration: none;
 }
@@ -44,18 +44,18 @@ main {
 }
 
 .container {
-   
+
     margin-top: 4rem;
     width: 100%;
     max-width: 500px;
     margin: 4rem auto;
     padding: 1rem;
-  
+
     border-radius: 2rem;
     height: 80%;
     font-family: var(--font-family);
 
-    
+
 }
 
 .container h1 {
@@ -67,7 +67,7 @@ main {
     width: 100%;
 }
 
-.todo-item{    
+.todo-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,9 +78,12 @@ main {
     color: var(--text-color);
     width: 100%;
     padding: 0.75rem;
+    cursor: pointer;
 }
 
-.delete-button{
+
+
+.delete-button {
     border: none;
     color: var(--primary-color);
     font-family: var(--font-family);
@@ -89,12 +92,12 @@ main {
     cursor: pointer;
 }
 
-.delete-button:hover{
+.delete-button:hover {
     color: var(--secondary-color);
     transition: 0.3s ease-in-out;
 }
 
-.input-section{
+.input-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -107,7 +110,7 @@ main {
 }
 
 
-.input-section > input{
+.input-section>input {
     border: none;
     outline: none;
     font: inherit;
@@ -116,7 +119,7 @@ main {
     padding: 0.5rem 0.75rem;
 }
 
-.input-section > button{
+.input-section>button {
     background-color: var(--primary-color);
     color: #fff;
     border: none;
@@ -127,27 +130,25 @@ main {
     font-weight: bold;
 }
 
-.input-section > button:hover{
+.input-section>button:hover {
     background-color: var(--secondary-color);
     transition: 0.3s ease-in-out;
 }
 
 
 
-.todo-item input[type="checkbox"]:checked + .task-text {
+.todo-item input[type="checkbox"]:checked+.task-text {
     text-decoration: line-through;
-    color: var(--secondary-color);  
+    color: var(--secondary-color);
     font-weight: 600;
-    cursor: pointer;
-    font-style: italic;
     
 }
 
-footer{
-    display: flex;   
+footer {
+    display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem;    
+    padding: 1rem;
     color: var(--text-color);
     font-family: var(--font-family);
     font-size: 0.8rem;
