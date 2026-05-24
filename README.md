@@ -2,6 +2,8 @@
 
 Uma lista de tarefas simples construída com HTML, CSS e JavaScript.
 
+Acesse o projeto: <a href="https://milennafeijo.github.io/to-do-list/">aqui</a>.
+
 ## Funcionalidades
 
 - Adicionar novas tarefas.
