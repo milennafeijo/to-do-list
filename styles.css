@@ -16,12 +16,12 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: var(--font-family);
 }
 
 h1 {
     font-size: var(--font-size);
     color: var(--primary-color);
-    font-family: var(--font-family);
     font-weight: 700;
     letter-spacing: 0.5px;
 }
@@ -44,16 +44,12 @@ main {
 }
 
 .container {
-
-    margin-top: 4rem;
     width: 100%;
     max-width: 500px;
     margin: 4rem auto;
     padding: 1rem;
-
     border-radius: 2rem;
     height: 80%;
-    font-family: var(--font-family);
 
 
 }
@@ -86,15 +82,16 @@ main {
 .delete-button {
     border: none;
     color: var(--primary-color);
-    font-family: var(--font-family);
     font-weight: bold;
     font-size: 1rem;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
+    
 }
 
 .delete-button:hover {
     color: var(--secondary-color);
-    transition: 0.3s ease-in-out;
+
 }
 
 .input-section {
@@ -126,13 +123,16 @@ main {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     cursor: pointer;
-    font-family: var(--font-family);
     font-weight: bold;
+    transition: 0.3s ease-in-out;
+    font-family: inherit;
+
+
 }
 
 .input-section>button:hover {
     background-color: var(--secondary-color);
-    transition: 0.3s ease-in-out;
+
 }
 
 
@@ -141,7 +141,7 @@ main {
     text-decoration: line-through;
     color: var(--secondary-color);
     font-weight: 600;
-    
+
 }
 
 footer {
@@ -150,7 +150,6 @@ footer {
     justify-content: center;
     padding: 1rem;
     color: var(--text-color);
-    font-family: var(--font-family);
     font-size: 0.8rem;
     text-align: center;
 }
