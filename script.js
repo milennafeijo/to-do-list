@@ -2,6 +2,7 @@ const buttonAdd = document.getElementById('add-button');
 const textInput = document.getElementById('text-input');
 const todoList = document.getElementById('todo-list');
 
+
 buttonAdd.addEventListener('click', function() {
     const text = textInput.value.trim();
     if (!text) return;
@@ -14,6 +15,12 @@ buttonAdd.addEventListener('click', function() {
         <button class="delete-button">Excluir</button>
     `;
 
+    const deleteButton = item.querySelector('.delete-button');
+
+    deleteButton.addEventListener ('click', function () {
+        todoList.removeChild(item);
+    });
+
     todoList.appendChild(item);
     textInput.value = '';
     textInput.focus();
@@ -24,3 +31,4 @@ textInput.addEventListener('keydown', function(event) {
         buttonAdd.click();
     }
 });
+
