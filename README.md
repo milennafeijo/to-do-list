@@ -34,15 +34,15 @@ Acesse o projeto: <a href="https://milennafeijo.github.io/to-do-list/">aqui</a>.
 
 ## O que aprendi 
 
-• Manipulação do DOM com JavaScript
-• Uso do localStorage para persistir dados
-• Criação e reutilização de funções
-• Método forEach para percorrer arrays
-• Trabalhar com objetos JavaScript
-• Boas práticas como textContent no lugar de innerHTML
-• Fazer as tarefas persistirem no localStorage sem perder dados ao adicionar novas
-• Manter o estado do checkbox (concluída ou não) após recarregar a página
-• Deixar o projeto responsivo
+• Manipulação do DOM com JavaScript <br>
+• Uso do localStorage para persistir dados <br>
+• Criação e reutilização de funções <br>
+• Método forEach para percorrer arrays <br>
+• Trabalhar com objetos JavaScript <br>
+• Boas práticas como textContent no lugar de innerHTML <br> 
+• Fazer as tarefas persistirem no localStorage sem perder dados ao adicionar novas <br> 
+• Manter o estado do checkbox (concluída ou não) após recarregar a página <br> 
+• Deixar o projeto responsivo <br>
 
 ## Vídeo do projeto 
 
