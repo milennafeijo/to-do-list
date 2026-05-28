@@ -44,7 +44,6 @@ Acesse o projeto: <a href="https://milennafeijo.github.io/to-do-list/">aqui</a>.
 • Manter o estado do checkbox (concluída ou não) após recarregar a página <br> 
 • Deixar o projeto responsivo <br>
 
-## Vídeo do projeto 
 
 
 
