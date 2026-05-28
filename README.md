@@ -32,10 +32,20 @@ Acesse o projeto: <a href="https://milennafeijo.github.io/to-do-list/">aqui</a>.
 - CSS
 - JavaScript
 
-## Autor
+## O que aprendi 
 
-Desenvolvido por [Milenna Feijó](http://github.com/milennafeijo).
+• Manipulação do DOM com JavaScript
+• Uso do localStorage para persistir dados
+• Criação e reutilização de funções
+• Método forEach para percorrer arrays
+• Trabalhar com objetos JavaScript
+• Boas práticas como textContent no lugar de innerHTML
+• Fazer as tarefas persistirem no localStorage sem perder dados ao adicionar novas
+• Manter o estado do checkbox (concluída ou não) após recarregar a página
+• Deixar o projeto responsivo
 
-## Observações
+## Vídeo do projeto 
 
-Este projeto é ideal para praticar manipulação do DOM e uso de `localStorage`.
+
+
+
